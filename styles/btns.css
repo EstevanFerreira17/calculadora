@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+div.container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "mc m por xi"
+    "sete oito nove men"
+    "qua cinco seis mai"
+    "um dois tres igl"
+    "zer zer pon igl"
+    ;
+    grid-gap: 8px;
+}
+
+input {
+    border-radius: 10px;
+    background-color: #91a5af;
+    border: 5px solid #061037;
+    font: normal 1.5em Arial;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.452);
+}
+
+input#mc {
+    grid-area: mc;
+    background-color: #4F7589;
+}
+
+input#m {
+    grid-area: m;
+    background-color: #4F7589;
+}
+
+input#por {
+    grid-area: por;
+    background-color: #4F7589;
+}
+
+input#x {
+    grid-area: xi;
+    background-color: #4F7589;
+}
+
+input#sete {
+    grid-area: sete;
+}
+
+input#oito {
+    grid-area: oito;
+}
+
+input#nove {
+    grid-area: nove;
+}
+
+input#men {
+    grid-area: men;
+}
+
+input#qua {
+    grid-area: qua;
+}
+
+input#cinco {
+    grid-area: cinco;
+}
+
+input#seis {
+    grid-area: seis;
+}
+
+input#mai {
+    grid-area: mai;
+}
+
+input#um {
+    grid-area: um;
+}
+
+input#dois {
+    grid-area: dois;
+}
+
+input#tres {
+    grid-area: tres;
+}
+
+input#igl {
+    grid-area: igl;
+    background-color: #FF8402;
+}
+
+input#zero {
+    grid-area: zer;
+}
+
+input#pon {
+    grid-area: pon;
+}
