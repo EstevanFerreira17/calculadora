@@ -11,7 +11,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: rgb(238, 236, 238);
+}
+
+.explication {
+    width: 295px;
+    color: black;
+    font: normal 1.2em Arial;
+    text-align: justify;
 }
 
 main {
@@ -26,7 +34,7 @@ main {
     0px 12px 9px rgba(3, 7, 18, 0.10),
     0px 20px 15px rgba(3, 7, 18, 0.12),
     0px 32px 24px rgba(3, 7, 18, 0.15);
-
+    scale: 0.75;
 }
 
 div.pt1 {
@@ -37,7 +45,6 @@ div.pt1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 div#display {
@@ -52,7 +59,7 @@ div#display {
     border: 5px solid #061037;
     border-radius: 5px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.349);
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 p#content {
